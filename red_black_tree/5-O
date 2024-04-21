@@ -1,0 +1,5 @@
+/* the average time complexities of the below operations for a Red-Black Tree (one answer per line): */
+
+O(log(n))  /* Inserting a node in a Red-Black Tree of size n */
+O(log(n))  /* Removing a node from a Red-Black Tree of size n */
+O(log(n))  /* Searching for a node in a Red-Black Tree of size n */

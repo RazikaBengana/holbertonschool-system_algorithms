@@ -103,12 +103,13 @@ binary_tree_node_t *restore_heapify(int (*data_cmp)(void *, void *),
 
 
 /**
- * extract_root - program that extracts the root element from the heap
- * and restores heap property
+ * extract_root - program that extracts the root element from the heap,
+ * rearranges the heap to maintain the heap property,
+ * and reduces the heap size
  *
- * @heap: the heap structure
+ * @heap: the heap structure from which to extract the root
  *
- * Return: the extracted root data
+ * Return: the data of the extracted root element
  */
 
 void *extract_root(heap_t *heap)
@@ -144,11 +145,11 @@ void *extract_root(heap_t *heap)
 
 /**
  * heap_extract - program that extracts the root element from the heap
- * and restores heap property
+ * and restores heap property using the provided comparison function
  *
- * @heap: the heap structure
+ * @heap: the heap structure from which to extract and restore the heap
  *
- * Return: the extracted root data
+ * Return: the data of the extracted root element
  */
 
 void *heap_extract(heap_t *heap)

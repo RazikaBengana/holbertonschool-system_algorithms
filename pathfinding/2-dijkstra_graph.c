@@ -246,16 +246,16 @@ queue_t *dijkstra_graph(graph_t *graph, vertex_t const *start,
 	}
 
 	qsort((void *)dijkstra_queue, graph->nb_vertices,
-	      sizeof(dijkstra_vertex_t), compareWeights);
+	      sizeof(dijkstra_vertex_t), weightComparator);
 
-	if (dijkstraGraph(dijkstra_queue, graph->nb_vertices,
+	if (runDijkstraAlgorithm(dijkstra_queue, graph->nb_vertices,
 			  start, target, 0, &target_i) != 0)
 	{
 		free(dijkstra_queue);
 		return (NULL);
 	}
 
-	path = pathFromDijkstraQueue(dijkstra_queue, target_i);
+	path = constructPathFromQueue(dijkstra_queue, target_i);
 	free(dijkstra_queue);
 
 	return (path);

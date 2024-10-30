@@ -80,7 +80,7 @@ This project has been created by **[Holberton School](https://www.holbertonschoo
 
 <!-- ------------------------------------------------------------------------------------------------- -->
 
-## :memo: Learning objectives
+## :memo: Learning Objectives
 
 <br>
 
@@ -162,12 +162,12 @@ General
 
 <br>
 
-- Please use the following data structures and types for `graphs`. <br>
+- Please use the following data structures and types for graphs. <br>
   Don’t forget to include them in your header file `graphs.h`:
 
 <br>
 
-```yaml
+```c
 /**
  * enum edge_type_e - Enumerates the different types of
  * connection between two vertices
@@ -285,7 +285,7 @@ typedef struct graph_s
 
 <br>
 
-**${\color{blue}Razika \space Bengana}$**
+<img src="https://img.shields.io/badge/Razika%20Bengana-darkblue" alt="Razika Bengana" width="120">
 
 <br>
 <br>

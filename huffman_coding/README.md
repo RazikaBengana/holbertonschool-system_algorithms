@@ -89,7 +89,7 @@ This project has been created by **[Holberton School](https://www.holbertonschoo
 
 <!-- ------------------------------------------------------------------------------------------------- -->
 
-## :memo: Learning objectives
+## :memo: Learning Objectives
 
 <br>
 
@@ -173,7 +173,7 @@ General
 
 <br>
 
-```yaml
+```c
 /**
  * struct binary_tree_node_s - Binary tree node data structure
  *
@@ -214,7 +214,7 @@ typedef struct heap_s
 
 <br>
 
-```yaml
+```c
 /**
  * struct symbol_s - Stores a char and its associated frequency
  *
@@ -274,7 +274,7 @@ typedef struct symbol_s
 
 <br>
 
-**${\color{blue}Razika \space Bengana}$**
+<img src="https://img.shields.io/badge/Razika%20Bengana-darkblue" alt="Razika Bengana" width="120">
 
 <br>
 <br>
